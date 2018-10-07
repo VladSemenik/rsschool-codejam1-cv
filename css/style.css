@@ -10,13 +10,10 @@ body{
 .container{
     display: block;
     max-width: 1000px;
-    height: 2000px;
     margin: 50px auto 0;
     background-color: #fff;
 }
-.author-photo{
-    position: fixed;
-}
+
 .author-photo img{
     border-radius: 5%;
 }
@@ -33,7 +30,6 @@ div[class="contact"]:last-child{
 }
 .main-container{
     display: block;
-    margin: 0 0 0 220px;
     height: 100%;
 }
 .container-block{
@@ -68,4 +64,21 @@ div[class="contact"]:last-child{
 }
 .skills ul li a:hover {
     color: #154088;
-  }
+}
+@media (max-width: 500px){
+    /* CSS-стили */
+    .author-photo {
+        clear: both;
+    }
+    .main-container{
+        margin: 50% 0 0 0;
+    }
+}
+@media (min-width: 500px){
+    .author-photo{
+        position: fixed;
+    }
+    .main-container{
+        margin: 0 0 0 220px;
+    }
+}
