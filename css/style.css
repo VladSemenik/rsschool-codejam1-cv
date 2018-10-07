@@ -65,7 +65,7 @@ div[class="contact"]:last-child{
 .skills ul li a:hover {
     color: #154088;
 }
-@media (max-width: 500px){
+@media (max-width: 700px){
     /* CSS-стили */
     .author-photo {
         clear: both;
@@ -74,7 +74,7 @@ div[class="contact"]:last-child{
         margin: 50% 0 0 0;
     }
 }
-@media (min-width: 500px){
+@media (min-width: 700px){
     .author-photo{
         position: fixed;
     }
