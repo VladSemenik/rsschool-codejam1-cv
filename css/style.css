@@ -13,9 +13,12 @@ body{
     margin: 50px auto 0;
     background-color: #fff;
 }
-
-.author-photo img{
+.author-photo{
+    max-width: 200px;
+}
+.author-photo > img{
     border-radius: 5%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 .contact a{
     display: block;
@@ -69,6 +72,8 @@ div[class="contact"]:last-child{
     /* CSS-стили */
     .author-photo {
         clear: both;
+        margin-left: auto;
+        margin-right: auto;
     }
     .main-container{
         margin: 50% 0 0 0;
